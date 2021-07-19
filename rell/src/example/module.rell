@@ -1,0 +1,10 @@
+@mount("example")
+module;
+
+struct module_args {
+  name;
+}
+
+query hello() {
+  return "Hello " + chain_context.args.name;
+}

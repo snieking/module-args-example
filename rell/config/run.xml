@@ -1,0 +1,11 @@
+<run wipe-db="true">
+    <chains>
+        <chain name="module-args-example" iid="0">
+            <config height="0">
+        				<app module="example">
+        				    <arg key="name"><string>Alice</string></arg>
+                </app>
+            </config>
+        </chain>
+    </chains>
+</run>
